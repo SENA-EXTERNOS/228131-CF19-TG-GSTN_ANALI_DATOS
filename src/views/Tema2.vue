@@ -291,6 +291,31 @@
             .bloque-texto-g__texto.p-4
               p.mb-0 Los contenedores se crearon, en principio, para implementar juegos en línea, debido a que reducen la sobrecarga del sistema, tienen tiempos de implementación más rápidos y permiten a los equipos de desarrollo pensar menos en la implementación y más en el contenido en producción. Por lo tanto, los creadores de juegos como Riot Games de League of Legends, los incorporan en sus proyectos.
     //TODO! montar al final las tarjetas
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-4.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema2/20.png", alt="alt")
+          .crd_hover_txt--body.w-100
+            h4.mb-3.text-center Los contenedores 
+            p.mb-0 son la mejor opción para la virtualización. Estos virtualizan el sistema operativo, por lo general Linux, en lugar del hardware, dejando que cada contenedor individual almacene el programa, sus bibliotecas y dependencias.  Debido a que no siempre necesitan un sistema operativo huésped, como lo hacen las máquinas virtuales, los contenedores pueden hacer uso de las capacidades y recursos del sistema operativo host, ya que son pequeños, rápidos y portátiles. Entre los más usados están Docker y Kubernetes.
+      .col-xl-4.col-lg-4.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema2/21.png", alt="alt")
+          .crd_hover_txt--body.w-100
+            h4.mb-3.text-center La CPU
+            p.mb-0 Los contenedores brindan a los desarrolladores la misma capacidad para aumentar el uso de CPU y memoria que las máquinas virtuales. Sin embargo, los contenedores van un paso más adelante, ya que, también admiten diseños de microservicios que permiten la utilización y escalado más preciso de los componentes de la aplicación. Debido a que solo un componente soporta la carga, este es un método rentable para ampliar las aplicaciones monolíticas.
+      .col-xl-4.col-lg-4.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema2/22.png", alt="alt")
+          .crd_hover_txt--body.w-100
+            h4.mb-3.text-center La Implementación
+            p.mb-0 Usando los contenedores, los desarrolladores pueden crear e implementar aplicaciones de forma rápida y frecuente gracias a las mejoras en los métodos de integración y a las entregas continuas, cada vez más usuales en los proyectos de desarrollo basados en metodologías ágiles. 
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.4  Docker
