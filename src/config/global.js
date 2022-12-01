@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Despliegue de solución informática',
+    descripcionCurso:
+      'El despliegue de una solución informática es una de las fases más importantes dentro del proceso de la analítica de datos. Es la fase visible para el usuario o cliente del sistema, por lo tanto, las aplicaciones o modelos implementados deben garantizar su usabilidad, disponibilidad y entrega de respuestas oportunas para las problemáticas que fueron diseñadas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
