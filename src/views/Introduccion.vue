@@ -8,15 +8,15 @@
         span
           i.fas.fa-info
       h1 Introducción
-    .row.justify-content-center.mb-5.align-items-center
+
+    .row.justify-content-center.mb-4.align-items-center
       .col-lg-2(data-aos="fade-right").mb-lg-0.mb-3
         .px-2: img(src='@/assets/curso/temas/intro/1.svg', alt='')
       .col-lg-10(data-aos="fade-left")
-        .cajon-b.color-primario.p-3.mb-5.abajo-derecha
-          p.mb-0 Estimado aprendiz, reciba una cordial bienvenida a este recurso de aprendizaje orientado a la ciencia de datos. Durante su desarrollo se abordarán los ejes temáticos: introducción a la implementación de modelos de machine learning, implementar modelos a través de API REST e implementación en IAAS (aws ecs). Al finalizar el componente formativo, estará en la capacidad de desplegar la solución informática de acuerdo a criterio técnico y marcos de referencia. Antes de empezar, mire el siguiente video para identificar el contexto de aprendizaje.
+        .cajon-b.color-primario.p-3.mb-4.abajo-derecha
+          p Estimado aprendiz, bienvenido a este recurso de aprendizaje, orientado a la ciencia de datos. Durante su desarrollo, se abordarán ejes temáticos como introducción a la implementación de modelos de #[em Machine Learning], implementación de modelos a través de API REST, así como también la infraestructura IAAS (AWS ECS). Al finalizar el componente formativo, estará en la capacidad de desplegar la solución informática, de acuerdo con un criterio técnico y marcos de referencia. 
             br
-            br
-            |#[b ¡Muchos éxitos, que tenga un aprendizaje significativo y memorable!]
+          p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

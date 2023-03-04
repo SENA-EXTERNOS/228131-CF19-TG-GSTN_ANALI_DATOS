@@ -9,9 +9,9 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-contenido
           h2 Despliegue de solución informática
-        p.mb-4 Apreciado aprendiz, a continuación, encontrará una actividad didáctica, para afianzar los conceptos y aprendizajes del componente de formación sobre despliegue de solución informática.
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una actividad didáctica para afianzar los conceptos y aprendizajes del componente de formación sobre despliegue de solución informática.
           br
           br
           |Antes de realizarlo, se recomienda la lectura del componente formativo mencionado. Esta actividad no es calificable, y puede realizarse todas las veces que se desee.

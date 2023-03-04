@@ -6,6 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Introducción a la implementación de modelos de #[em Machine Learning]
+
     .row.justify-content-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
@@ -13,14 +14,15 @@
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El proceso de implementación de modelos de #[em Machine Learning] consiste en pasar un modelo previamente construido hacia un ambiente donde estará disponible para ser accedido por los usuarios o clientes. Este ambiente, por lo general, está alojado en la nube y a través de internet proporciona disponibilidad para que se pueda usar en tiempo real. 
+            p.mb-0 El proceso de implementación de modelos de #[em Machine Learning], consiste en pasar, un modelo previamente construido, hacia un ambiente donde estará disponible para ser accedido por los usuarios o clientes. Este ambiente, por lo general, está alojado en la nube y a través de Internet, proporciona disponibilidad para que se pueda usar en tiempo real. 
+
     .tarjeta.p-5(style="background-color: #f5fafe ")
       SlyderA(tipo='b')
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p La implementación o despliegue de modelos de #[em machine learning] ofrece a las empresas ventajas competitivas en el mercado y contexto actual, ya que, permite integrarlos con los demás módulos del ecosistema de la organización, generar valor agregado al negocio y maximizar la operación comercial.
+            p La implementación o despliegue de modelos de #[em Machine learning], ofrece a las empresas ventajas competitivas en el mercado y contexto actual, porque permite integrarlos con los demás módulos del ecosistema de la organización, generar valor agregado al negocio y maximizar la operación comercial.
           .col-md-6
-              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              //.titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 1
                 br
                 span.fst-italic Ecosistema
@@ -28,52 +30,50 @@
               img(src='@/assets/curso/temas/tema1/2.svg', alt='Texto que describa la imagen')
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Las implementaciones actuales necesitan que el flujo y procesamiento de la información sea sincrónico, es decir que la información debe ser procesada al instante. Además, deben soportar el registro y consulta de grandes volúmenes de datos desde diferentes fuentes y tipos.  
+            p Los modelos de #[em Machine learning] se pueden aplicar en todas las industrias; por ejemplo, en un sector como el comercio electrónico, donde los usuarios realizan compras a través de un sitio web, se implementan sugerencias o recomendaciones sobre los productos, de acuerdo con perfil del cliente, creado previamente, para maximizar la probabilidad de compra.
           .col-md-6
 
               img(src='@/assets/curso/temas/tema1/3.png', alt='Texto que describa la imagen')
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Los modelos de Machine Learning se pueden aplicar en todas las industrias, por ejemplo, en un sector como el comercio electrónico, donde los usuarios realizan compras a través de un sitio web, se implementan sugerencias o recomendaciones sobre los productos de acuerdo al perfil del cliente creado previamente para maximizar la probabilidad de compra.
+            p Las implementaciones actuales necesitan que el flujo y procesamiento de la información sea sincrónico, es decir, que la información debe ser procesada al instante. Además, deben soportar el registro y consulta de grandes volúmenes de datos desde diferentes fuentes y tipos.  
           .col-md-6
               img(src='@/assets/curso/temas/tema1/4.png', alt='Texto que describa la imagen')
+
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1  Implementación de Pipelines
+      h2 1.1  Implementación de <em>Pipelines</em>
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right").mb-lg-0.mb-3
-        p Un pipeline de datos es un conjunto de fases y herramientas tecnológicas que se integran para realizar los procesos de transformación de los datos desde el inicio hasta su almacenamiento persistente. La creación de Pipelines es un componente central de la ciencia de datos que permite crear aplicaciones para recopilar datos de millones de usuarios y procesar los resultados casi en tiempo real.
-          br
-          br
-          |Así mismo, los pipelines se entienden como una composición de tareas, donde cada una toma un conjunto de entradas y produce un conjunto de salidas. Estas canalizaciones combinan las tareas en formas especificadas por el analista de datos que las crea (Cedeno, 2020).
-          br
-          br
-          | Generalmente, los pipelines canalizan los datos hacia repositorios o lagos de datos que se encuentran en la nube, como Hadoop, S3 de AWS o bases de datos relacionales como Redshift. 
-          br
-          br
-          |Los pipelines tienen las siguientes propiedades:
+        p Un <em>pipeline</em> de datos es un conjunto de fases y herramientas tecnológicas que se integran para realizar los procesos de transformación de los datos, desde el inicio hasta su almacenamiento persistente. La creación de <em>pipelines</em>, es un componente central de la ciencia de datos que permite crear aplicaciones para recopilar datos de millones de usuarios y procesar los resultados casi en tiempo real. 
+
+        p Así mismo, los <em>pipelines</em> se entienden como una composición de tareas, donde cada una toma un conjunto de entradas y produce un conjunto de salidas. Estas canalizaciones combinan las tareas en formas especificadas por el analista de datos que las crea. (Cedeno, 2020)
+
+        p Generalmente, los <em>pipelines</em> canalizan los datos hacia repositorios o lagos de datos, que se encuentran en la nube, como Hadoop, S3 de AWS o bases de datos relacionales como Redshift. 
+
+        p Los <em>pipelines</em> tienen las siguientes propiedades:
       .col-lg-5.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/5.png', alt='')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-6(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/6.png', alt='')
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--a")
           div(titulo="Baja latencia")
-            p Un pipeline permite consultas de datos a segundos de la fase final del proceso. Esto permite, a los científicos de datos, la creación de productos que se actualicen de forma inmediata.
+            p Un <em>pipeline</em> permite consultas de datos a segundos de la fase final del proceso. Esto posibilita, a los científicos de datos, la creación de productos que se actualicen de forma inmediata.
           div(titulo="Escalabilidad")
-            p Un pipeline se puede utilizar tanto para procesar un centenar de datos como para miles o millones de ellos. Los sistemas de alto rendimiento no solo deben tener la capacidad de almacenar datos, sino también ofrecer el acceso para consultas de la totalidad de estos.  
+            p Un <em>pipeline</em> se puede utilizar tanto para procesar desde un centenar de datos, hasta miles o millones de ellos. Los sistemas de alto rendimiento no solo deben tener la capacidad de almacenar datos, sino también ofrecer el acceso para consultas de la totalidad de estos.  
           div(titulo="Control de versiones")
-            p Un pipeline podrá realizar cambios de versión sin interrumpir el proceso de los datos o generar pérdida de estos. 
+            p Un <em>pipeline</em> podrá realizar cambios de versión sin interrumpir el proceso de los datos o generar pérdida de estos. 
           div(titulo="Monitoreo")
-            p Los pipelines deben generar alertas cuando en una fase no se reciben datos o eventos, esto con el fin de que el analista de datos examine la anomalía y realice los correctivos pertinentes. 
+            p Los <em>pipelines</em> deben generar alertas cuando en una fase, no se reciben datos o eventos; esto, con la finalidad que el analista de datos examine la anomalía y realice los correctivos pertinentes. 
           div(titulo="<em> Testing</em>")
-            p Los pipelines permiten las pruebas de datos cuando ingresan a una de sus fases, aun cuando no terminan en un base o lago de datos. 
+            p Los <em>pipelines</em> permiten las pruebas de datos cuando ingresan a una de sus fases, aun cuando no terminan en un base o lago de datos. 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.col-5.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/7.svg', alt='')
       .col-lg-10
-        p.mb-0 Uno de los estándares más comunes para el almacenamiento de datos masivos en la industria es el data lake o lago de datos, el cual permite almacenar datos semiestructurados en una base de datos distribuida, ejecutar procesos ETL para extraer los datos más relevantes y almacenarlos en las bases de datos de análisis. Se pueden usar diferentes herramientas para la base de datos distribuida: como Hadoop, Cosmos o S3.
+        p.mb-0 Uno de los estándares más comunes para el almacenamiento de datos masivos en la industria es el data #[em lake] o lago de datos, el cual permite almacenar datos semiestructurados en una base de datos distribuida y ejecutar procesos ETL para extraer los datos más relevantes y almacenarlos en las bases de datos de análisis. Se pueden usar diferentes herramientas para la base de datos distribuida, como Hadoop, Cosmos o S3.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        //.titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 2
           br
           span.fst-italic Estructura de pipeline con lago de datos
@@ -86,13 +86,14 @@
           .col-md-6: img(src='@/assets/curso/temas/tema1/9.png', alt='')
         .row(titulo="Paso 2")
           .col-md-6.mb-4.mb-md-0
-            p Los pipelines son ampliamente usados en la automatización de flujos de trabajo para ahorrar tiempo y aumentar la eficiencia. El conocimiento de los procesos a automatizar es importante en el diseño del pipeline para que se pueda repetir en varios servicios y configurarse una sola vez. 
+            p Los <em>pipelines</em> son ampliamente usados en la automatización de flujos de trabajo, para ahorrar tiempo y aumentar la eficiencia. El conocimiento de los procesos que se van a automatizar, es importante en el diseño del <em>pipeline</em>, para que se pueda repetir en varios servicios y configurarse una sola vez. 
           .col-md-6: img(src='@/assets/curso/temas/tema1/9.png', alt='')
         .row(titulo="Paso 3")
           .col-md-6.mb-4.mb-md-0
-            p En el campo del Data Science, los pipelines hacen que el preprocesamiento de los datos se realice muy rápido. Además, el pipeline se puede reutilizar en las fases de pruebas o testeo donde los datos aún no se han transformado o con nuevos datos que ingresen al modelo. 
+            p En el campo del <em>Data Science</em>, los <em>pipelines</em> hacen que el preprocesamiento de los datos se realice muy rápido. Además, el <em>pipeline</em> se puede reutilizar en las fases de pruebas o testeo, donde los datos aún no se han transformado o con nuevos datos que ingresen al modelo. 
           .col-md-6: img(src='@/assets/curso/temas/tema1/9.png', alt='')
-    p.mb-5(data-aos='fade-right') A continuación, se muestra un ejemplo de la creación de un pipeline usando: el lenguaje de programación Python, la librería Scikit Learn y la herramienta Google Colab. 
+    
+    p.mb-5(data-aos='fade-right') A continuación, se muestra un ejemplo de la creación de un <em>pipeline</em> usando: el lenguaje de programación Python, la librería Scikit Learn y la herramienta Google Colab. 
     .row.justify-content-center.mb-5
       .col-lg-4.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/12.png', alt='')
       .col-lg-8(data-aos="fade-left")
@@ -151,32 +152,32 @@
               br
               |#[span.r--r ‘Resultado’]: ((Caracteristica1*y1) + (Caracteristica2*y2) + a) })
           div(titulo='Aplicar modelo de regresión')
-            p El conjunto de datos creado tiene la siguiente estructura. A estos datos se les aplicará un modelo de regresión con el fin de predecir la variable resultado.
+            p El conjunto de datos creado, tiene la estructura a continuación. A estos datos se les aplicará un modelo de regresión, con el fin de predecir la variable resultante.
             .row.justify-content-center.mb-5
               .col-lg-6
-                .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                //.titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Figura.
                   br
                   span.fst-italic  Dataframe
                 img(src='@/assets/curso/temas/tema1/13.png', alt='')
           div(titulo='Crear lista de tuplas')
-            p Para crear pipelines es indispensable conocer previamente los pasos que conforman el proceso, la notación es #[b “( nombre_del_paso’, Instancia() )”], donde el primer parámetro es el nombre del paso y el segundo, su respectiva instancia. 
+            p Para crear <em>pipelines</em>, es indispensable conocer previamente los pasos que conforman el proceso; la notación es “(nombre_del_paso', Instancia() )”, donde el primer parámetro es el nombre del paso y el segundo, su respectiva instancia. 
               br
               br
-              |Luego de conocer los pasos del pipeline se creará una lista de tuplas:
+              |Luego de conocer los pasos del <em>pipeline</em>, se creará una lista de tuplas:
             p.fst-italic #[span.r--v # Crear los pasos a realizar ]
               br
               |pasos = [(#[span.r--r ‘Estandar’], StandardScaler()), 
               br
               | #[span.ms-5 (#[span.r--r ‘Regresion_Lineal’], LinearRegression()) ]]
           div(titulo='Crear objeto')
-            p Seguidamente, se crea el objeto para el pipeline o tubería.
+            p Seguidamente, se crea el objeto para el <em>pipeline</em> o tubería.
               br
               br
               | #[em tuberia = Pipeline(pasos)]
 
-          div(titulo='Crear dataframe de entrenamiento')
-            p La siguiente fase no hace parte de la creación del pipeline, pero será necesaria para la articulación e implantación del modelo:
+          div(titulo='Crear <em>dataframe</em> de entrenamiento')
+            p La siguiente fase no hace parte de la creación del <em>pipeline</em>, pero será necesaria para la articulación e implantación del modelo.
             p.fst-italic #[span.r--v # Se crea un nuevo dataframe para el entrenamiento del modelo]
               br
               |df_train = dataframe
@@ -198,7 +199,7 @@
               br
               |#[span.r--v #Se usa 20% de datos para prueba y una semilla de 10.]
           div(titulo='Uso del <em>pipeline</em>')
-            p Finalmente, se hace uso del pipeline en los procesos de entrenamiento, medición de métricas y predicción:
+            p Finalmente, se hace uso del <em>pipeline</em> en los procesos de entrenamiento, medición de métricas y predicción.
             p.fst-italic #[span.r--v # Pipeline para el entrenamiento]
               br
               |tuberia.fit(X,y)
@@ -210,9 +211,11 @@
               |#[span.r--v # Pipeline para la predicción](span.r--v="", #="", Pipeline="", para="", el="", Score="") 
               br
               |tuberia.predict(X_test)
-    p.mb-5(data-aos='fade-right') En el ejemplo anterior se muestra la implementación de un pipeline para realizar el proceso de entrenamiento del modelo y la predicción de la variable resultado con el algoritmo de regresión lineal. 
+
+    p.mb-4(data-aos='fade-right') En el ejemplo anterior se muestra la implementación de un <em>pipeline</em> para realizar el proceso de entrenamiento del modelo y la predicción de la variable resultado con el algoritmo de regresión lineal. 
+    
     //TODO! agregar documento
-    .row.justify-content-center.mb-5
+    //.row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta.p-3.mb-5(style='background-color: #c4e4fe')
           .row.justify-content-around.align-items-center
@@ -226,35 +229,37 @@
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
                     span Enlace web
                     i.fas.fa-link
+
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2  Optimización de la implementación de modelos
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/15.svg', alt='')
       .col-lg-9(data-aos="fade-left")
-        p Generalmente, las organizaciones cuentan con datos sin procesar recopilados y almacenados en bases de datos. Estos datos no son adecuados para entrenar modelos de #[em Machine Learning] o como insumo a modelos ya existentes para generar una predicción. El ingeniero de datos, por su parte, debe realizar una serie de transformaciones antes de que los algoritmos de Machine Learning puedan utilizar estas variables.  A estas transformaciones se les conoce como ingeniería de funciones. 
+        p Generalmente, las organizaciones cuentan con datos sin procesar, recopilados y almacenados en bases de datos. Estos datos no son adecuados para entrenar modelos de #[em Machine learning] o como insumo a modelos ya existentes, para generar una predicción. El ingeniero de datos, por su parte, debe realizar una serie de transformaciones antes que los algoritmos de #[em Machine learning] puedan utilizar estas variables. A estas transformaciones, se les conoce como ingeniería de funciones. 
           br
           br
           | La ingeniería de funciones utiliza el conocimiento que el experto del dominio tiene de los datos para crear métodos que realicen imputación de datos faltantes, codificación de variables categóricas, transformación de variables numéricas y creación de nuevas características, entre otras. Estos métodos deben devolver un conjunto de datos idóneo para el entrenamiento de los modelos de aprendizaje automático. 
           br
           br
-          |Los científicos de datos dedican hasta el 60% del tiempo en tareas relacionadas con la ingeniería de funciones o características. Este tiempo se justifica por las siguientes razones:
+          |Los científicos de datos dedican hasta el 60 % del tiempo en tareas relacionadas con la ingeniería de funciones o características. Este tiempo se justifica por las siguientes razones:
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-right")
         TabsA.color-acento-botones.mb-5
           .tarjeta.p-4(titulo="Primera razón" style="background-color: #dbeefe")
-            p Las librerías populares de #[em Machine Learning] como #[em Scikit-Learn] no admiten campos faltantes o datos categóricos en sus entradas, por lo tanto, esos campos deben ser imputados con algún valor que los represente como la media o la moda.
+            p Librerías populares de #[em Machine learning], como Scikit-Learn, no admiten campos faltantes o datos categóricos en sus entradas, por lo tanto, esos campos deben ser imputados con algún valor que los represente, como la media o la moda.
           .tarjeta.p-4(titulo="Segunda razón" style="background-color: #dbeefe")
-            p Algunos algoritmos como la regresión lineal, las redes neuronales y el K vecino más cercano son sensibles a la escala variable, de modo que todos los valores de una variable deben tener la misma unidad o métrica, por ejemplo, en un campo que contiene datos de tiempo, todos los registros deben entenderse ya sea por días, semanas, meses o años, pero no deben contener diferentes escalas. 
+            p Algunos algoritmos, como la regresión lineal, las redes neuronales y el K vecino más cercano, son sensibles a la escala variable, de modo que todos los valores de una variable deben tener la misma unidad o métrica. Por ejemplo, en un campo que contiene datos de tiempo, todos los registros deben entenderse ya sea por días, semanas, meses o años, pero no deben contener diferentes escalas. 
           .tarjeta.p-4(titulo="Tercera razón" style="background-color: #dbeefe")
-            p Algunos algoritmos como la regresión lineal son muy sensibles a valores atípicos, por ejemplo, si tenemos una base de datos con información sobre el costo de las casas en una región del país y uno de sus registros tiene un valor excesivamente bajo, este valor se cataloga como atípico y debe tratarse, ya sea con una imputación o una eliminación.
+            p Algunos algoritmos, como la regresión lineal, son muy sensibles a valores atípicos. Por ejemplo, si tenemos una base de datos con información sobre el costo de las casas en una región del país y uno de sus registros tiene un valor excesivamente bajo, este valor se cataloga como atípico y debe tratarse, ya sea con una imputación o una eliminación.
           .tarjeta.p-4(titulo="Cuarta razón" style="background-color: #dbeefe")
-            p Se pueden obtener muchos datos útiles de los datos en crudo, por ejemplo, fechas, series temporales, transacciones entre otros.
+            p Se pueden obtener muchos datos útiles de los datos en crudo. Por ejemplo, fechas, series temporales, transacciones, entre otros.
       .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/16.png', alt='')
-    p.mb-5(data-aos='fade-right') En la creación de nuevas características para la optimización de los modelos de machine learning se destacan los siguientes procesos de la ingeniería de funciones:
+    
+    p.mb-4(data-aos='fade-right') En la creación de nuevas características para la optimización de los modelos de #[em Machine learning], se destacan los siguientes procesos de la ingeniería de funciones:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--a")
-      div(titulo="")
-        p Este proceso consiste en el reemplazo de valores faltantes de la base de datos por números. Estos números, por lo general, son estimaciones estadísticas. A continuación, se muestra un ejemplo de esta técnica empleando la clase SimpleImputer de librería Scikit-Learn:
+      div(titulo="Imputación de datos faltantes ")
+        p Este proceso consiste en el reemplazo de valores faltantes de la base de datos, por números. Estos números, por lo general, son estimaciones estadísticas. A continuación, se muestra un ejemplo de esta técnica empleando la clase SimpleImputer de librería Scikit-Learn:
         .row
           .col-md-5.mb-4.mb-md-0
             p.fst-italic #[span.r--v # Se importan las librerias requeridas para el proceso de imputación]
@@ -311,8 +316,8 @@
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/17.svg', alt='Texto que describa la imagen')
-      div(titulo="")
-        p Este proceso ordena los valores de una variable en intervalos con el fin de obtener un número limitado de estados. Generalmente los analistas de datos crean intervalos de igual ancho o frecuencia para clasificar los valores de las variables. Por ejemplo, cuando se requiere ordenar el campo de edades de una base de datos en los estados de: niño, adolescente, adulto y anciano.  Modelos como los árboles de decisión y naive bayes tienen mejor rendimiento trabajando con valores discretos. A continuación, se muestra un ejemplo de esta técnica usando la librería pandas de Python.
+      div(titulo="Discretización ")
+        p Este proceso ordena los valores de una variable en intervalos, con el fin de obtener un número limitado de estados. Generalmente, los analistas de datos crean intervalos de igual ancho o frecuencia, para clasificar los valores de las variables. Por ejemplo, cuando se requiere ordenar el campo de edades de una base de datos en los estados de niño, adolescente, adulto y anciano. Modelos como los árboles de decisión y Naive Bayes, tienen mejor rendimiento trabajando con valores discretos. A continuación, se muestra un ejemplo de esta técnica usando la librería Pandas de Python.
         .row
           .col-md-5.mb-4.mb-md-0
             p.fst-italic 
@@ -377,8 +382,8 @@
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/18.svg', alt='Texto que describa la imagen')
-      div(titulo="")
-        p Las variables categóricas son aquellas que tienen nombres de categorías y no números como valores, por ejemplo, los valores de la variable “estado civil” pueden ser:  soltero, divorciado, casado y otros. Es habitual que los analistas de datos agrupen los valores poco comunes o raros en la categoría llamada otros. A continuación, se muestra un ejemplo de esta técnica empleando la clase LabelEncoder de librería Scikit-Learn:
+      div(titulo="Codificación de variables categóricas ")
+        p Las variables categóricas son aquellas que tienen nombres de categorías y no números, como valores; por ejemplo, los valores de la variable “estado civil” pueden ser soltero, divorciado, casado y otros. Es habitual que los analistas de datos agrupen los valores poco comunes o raros en la categoría llamada otros. A continuación, se muestra un ejemplo de esta técnica empleando la clase LabelEncoder de librería Scikit-Learn:
         .row
           .col-md-5.mb-4.mb-md-0
             p.fst-italic #[span.r--v # Se importan las librerías]
@@ -391,7 +396,7 @@
               br
               |#[span.r--r # Se crea un dataframe con los nombres de las categorías]
               br
-              |dataframe = pd.DataFrame({#[span.r--r “variable”]: [#[span.r--r ‘soltero’,’casado’,’soltero’,’dicorciado’,’casado’]]})
+              |dataframe = pd.DataFrame({#[span.r--r “variable”]: [#[span.r--r ‘soltero’,’casado’,’soltero’,’divorciado’,’casado’]]})
 
               br
               br
@@ -432,7 +437,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/19.svg', alt='Texto que describa la imagen')
                 
-    p.mb-5(data-aos='fade-right') Para una mejor comprensión del tema Machine Learning, se le invita a ver el siguiente video: 
+    p.mb-4(data-aos='fade-right') Para una mejor comprensión del tema  #[em Machine learning], se le invita a ver el siguiente video: 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -440,12 +445,13 @@
       .col-lg-10
         .tarjeta.p-3.mb-5(style='background-color: #c4e4fe')
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/20.svg")
+            .col-3.col-sm-2.col-lg-2
+              img.px-3(src="@/assets/curso/temas/tema1/20.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small Para realizar los ejercicios explicados en la videoclase, descargue los archivos que se usaran en la práctica:
+                  p Para realizar los ejercicios explicados en la videoclase, descargue los archivos que se usarán en la práctica:
+                    br
                     br
                     |#[b Anexos:] 
                   ol.lista-ol--cuadro.d-flex.justify-content-between
@@ -462,19 +468,21 @@
                         span(style="color:black") 3
                       | Optimizacion_de_Dataset.ipynb
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                    span Enlace web
-                    i.fas.fa-link 
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_videoclase.zip')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.3  Arquitectura del sistema de #[em Machine Learning]   
+      h2 1.3  Arquitectura del sistema de #[em Machine learning]   
     .row.justify-content-center.mb-5
       .col-lg-2.col-5.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/21.svg', alt='')
       .col-lg-10(data-aos="fade-left")
-        p Los modelos de #[em Machine Learning] se crean utilizando distintos lenguajes de programación como Java, Python, R, Julia, entre otros. A su vez, cada lenguaje cuenta con librerías de apoyo para su construcción, por ejemplo, Python tiene #[em scikit-learn, TensorFlow, PyTorch], etc. Teniendo en cuenta los diversos lenguajes y librerías con los que se pueden crear los modelos de machine learning, es necesario exportarlos en un estándar que funcione en cualquier plataforma.
+        p Los modelos de #[em Machine learning] se crean utilizando distintos lenguajes de programación como, Java, Python, R, Julia, entre otros. A su vez, cada lenguaje cuenta con librerías de apoyo para su construcción; por ejemplo, Python tiene Scikit-learn, TensorFlow, PyTorch, etc. De acuerdo con los diversos lenguajes y librerías con los que se pueden crear los modelos de #[em Machine learning], es necesario exportarlos en un estándar que funcione en cualquier plataforma.
     .row.justify-content-center.mb-5
       .col-lg-6
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        //.titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 3
           br
           span.fst-italic Exportación de Modelos Multiplataforma
@@ -484,27 +492,27 @@
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-primario
           div(numero="1" titulo="Estándares ")
-            p Los estándares para exportación de modelos de machine learning son la solución para su portabilidad y disponibilidad, independientemente de la plataforma donde se desplieguen. Entre los estándares más populares se encuentran:
+            p Los estándares para exportación de modelos de #[em Machine learning] son la solución para su portabilidad y disponibilidad, independientemente de la plataforma donde se desplieguen. Entre los estándares más populares se encuentran:
             ul.lista-ul
               li
                 i.fas.fa-angle-right
-                p.mb-0 #[b PMML:] El estándar PMML #[em (Predictive Model Markup Language)] es un lenguaje de marcado que tiene como base a XML. Fue desarrollado por el Grupo de Minería de Datos (DMG) con el fin de soportar modelos estadísticos y de minería de datos. 
+                p.mb-0 #[b PMML:] El estándar PMML (Predictive Model Markup Language), es un lenguaje de marcado que tiene como base a XML. Fue desarrollado por el Grupo de Minería de Datos (DMG), con el fin de soportar modelos estadísticos y de minería de datos. 
               li
                 i.fas.fa-angle-right
-                p.mb-0 #[b ONNX:] El estándar ONNX #[em (Open Neural Network Exchange)] es idóneo para los modelos de Deep Learning, ya que produce un diagrama de la red que se guarda en un archivo binario y puede ser utilizado en distintas plataformas. 
+                p.mb-0 #[b ONNX:] El estándar ONNX (Open Neural Network Exchange) es idóneo para los modelos de #[em Deep learning], porque produce un diagrama de la red que se guarda en un archivo binario y puede ser utilizado en distintas plataformas. 
           div(numero="2" titulo="Diseño del modelo")
-            p En los ambientes de producción no importa la plataforma en que se diseñó y construyó un modelo de #[em Machine Learning], ya que se debe garantizar que los componentes desarrollados puedan consumirse desde distintas plataformas, por ejemplo, que un modelo diseñado en Python pueda ser utilizado desde una aplicación con sistema operativo Android.
+            p En los ambientes de producción no importa la plataforma en que se diseñó y construyó un modelo de #[em Machine learning], ya que se debe garantizar que los componentes desarrollados puedan consumirse desde distintas plataformas, por ejemplo, que un modelo diseñado en Python pueda ser utilizado desde una aplicación con sistema operativo Android.
           div(numero="3" titulo="Ambientes de producción")
-            p La ciencia de datos generalmente se realiza sobre Python y sus librerías, sin embargo, en los ambientes de producción su uso no es recomendable, debido a que su baja escalabilidad lo limita para procesar grandes cantidades de datos. El entrenamiento de modelos con petabytes de información requiere de plataformas de Big Data como #[em Hadoop, Spark, Flink], etc, las cuales son preferidas por los sistemas de producción de las organizaciones.  
+            p La ciencia de datos generalmente se realiza sobre Python y sus librerías, sin embargo, en los ambientes de producción su uso no es recomendable, debido a que su baja escalabilidad lo limita para procesar grandes cantidades de datos. El entrenamiento de modelos con #[em petabytes] de información, requiere de plataformas de #[em Big data] como Hadoop, Spark, Flink, etc., las cuales son preferidas por los sistemas de producción de las organizaciones.  
           div(numero="4" titulo="Arquitectura")
-            p Los sistemas de #[em machine learning] tienen los siguientes desafíos en los diseños de su arquitectura: 
+            p Los sistemas de #[em Machine learning], tienen los siguientes desafíos en los diseños de su arquitectura: 
             ul.lista-ul
               li
                 i.fas.fa-angle-right
-                p.mb-0 #[em Python :] es ideal para la implementación de modelos de alto rendimiento, sin embargo, requiere aumentar su capacidad de procesamiento y escalabilidad para el entrenamiento de modelos con grandes volúmenes de datos.          
+                p.mb-0 #[b Python] es ideal para la implementación de modelos de alto rendimiento; sin embargo, requiere aumentar su capacidad de procesamiento y escalabilidad, para el entrenamiento de modelos con grandes volúmenes de datos.
               li
                 i.fas.fa-angle-right
-              p.mb-0  Las plataformas como #[em Hadoop, Spark o Flink,] aunque solucionan el inconveniente de la escalabilidad, no son adecuadas para integraciones sincrónicas donde el cliente requiere de altos rendimientos en los modelos.           
+                p.mb-0 Las plataformas como Hadoop, Spark o Flink, aunque solucionan el inconveniente de la escalabilidad, no son adecuadas para integraciones sincrónicas, donde el cliente requiere de altos rendimientos en los modelos.    
 
 
 

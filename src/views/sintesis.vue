@@ -3,10 +3,10 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 En el siguiente mapa podrá apreciar un resumen de los temas abordados con los conceptos básicos de despliegue de solución informática:
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-11.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
