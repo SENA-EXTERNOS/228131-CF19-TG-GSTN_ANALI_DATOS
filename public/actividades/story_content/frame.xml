@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Actividad did&amp;#225;ctica" />
+              <option name="title_text" value="CF19_228131" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1141,6 +1141,9 @@
   </colorschemes>
   <string_tables>
     <string_table name="npnxnanbnsnfns00000000001">
+      <string id="playback_speed_title">~Plaý~bacķ~ Sþe~ed</string>
+      <string id="playback_speed_normal">~Nøřӎ~al</string>
+      <string id="acc_playback_speed">~þlaý~bacķ~ špe~ed</string>
       <string id="more_info">Más información</string>
       <string id="bio">Biografía</string>
       <string id="enable_keyboardshortcuts">Activar atajos del teclado</string>
@@ -1305,11 +1308,11 @@
             <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5pMSQdNTnb5" displaytext="Un pipeline de datos es un conjunto de etapas y herramientas tecnológicas que se agrupan para ejecutar los procesos de transformación de los datos desde el inicio hasta su almacenamiento persistente." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5h5S3ravQMa" displaytext="Las consultas de datos en un pipeline se deben realizar al final de la tubería y por lo tanto son consultas estáticas." expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5frelyLEuNS" displaytext="Los lagos de datos proporcionan a los analistas de la capacidad de procesar información desde distintos volúmenes de datos con altos niveles de tolerancia a fallas." expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5frelyLEuNS" displaytext="Los lagos de datos proporcionan a los analistas la capacidad de procesar información desde distintos volúmenes de datos con altos niveles de tolerancia a fallas." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6bRTltBDsue" displaytext="Se conoce como ingeniería de requerimientos a una serie de transformaciones que se realizan previo al ingreso de los datos al modelo de machine learning." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5WRS3nvYbid" displaytext="La imputación de datos faltantes es un proceso donde se reemplazan valores inexistentes por números obtenidos de estimaciones estadísticas." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.66kbFGl6lQw" displaytext="El estándar PMML es ideal para la exportación de modelos de Deep Learning." expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5tzyKLfZd8I" displaytext="REST Es una interfaz que permite la conexión entre varios sistemas que utilizan el protocolo HTTP." expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5tzyKLfZd8I" displaytext="Rest Es una interfaz que permite la conexión entre varios sistemas que utilizan el protocolo HTTP." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5hJ2h1RaAiX" displaytext="Heroku es una infraestructura como servicio (IaaS) que se ejecuta localmente y cuenta con capacidad para soportar algunos lenguajes de programación." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5oFuuCNAen0" displaytext="La tecnología Docker se basa principalmente en la arquitectura cliente-servidor." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5zCkdr0i7bl" displaytext="AWS CLI Es una Interfaz gráfica fácil de utilizar mediante el navegador." expand="false" type="slide" />
