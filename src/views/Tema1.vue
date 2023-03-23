@@ -41,8 +41,8 @@
               img(src='@/assets/curso/temas/tema1/4.png', alt='Texto que describa la imagen')
 
     Separador
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1  Implementación de <em>Pipelines</em>
+    
+    h3 Implementación de <em>Pipelines</em>
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right").mb-lg-0.mb-3
         p Un <em>pipeline</em> de datos es un conjunto de fases y herramientas tecnológicas que se integran para realizar los procesos de transformación de los datos, desde el inicio hasta su almacenamiento persistente. La creación de <em>pipelines</em>, es un componente central de la ciencia de datos que permite crear aplicaciones para recopilar datos de millones de usuarios y procesar los resultados casi en tiempo real. 
@@ -98,7 +98,7 @@
       .col-lg-4.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/12.png', alt='')
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta ")
-          div.fst-italic(titulo="Importar librerías ")
+          div.fst-italic(titulo="Paso1: Importar librerías ")
             p 
               span.r--v # Se importan las librerías esenciales de pandas y numpy
               br
@@ -130,7 +130,7 @@
               |#[span.r--m from] sklearn.linear_model #[span.r--m import] LinearRegression
               br
               |#[span.r--m from] sklearn.model_selection #[span.r--m import] train_test_split
-          div(titulo='Crear conjunto de datos')
+          div(titulo='Paso 2: Crear conjunto de datos')
             p Ahora crearemos un conjunto de datos para el ejemplo:
             p.fst-italic #[span.r--v # Creación aleatoria de un Dataframe]
               br
@@ -151,7 +151,7 @@
               |#[span.r--r ‘Tipo’]: np.random.choice([#[span.r--v 11, 12, 21, 22, 3]], #[span.r--v 999]),
               br
               |#[span.r--r ‘Resultado’]: ((Caracteristica1*y1) + (Caracteristica2*y2) + a) })
-          div(titulo='Aplicar modelo de regresión')
+          div(titulo='Paso 3: Aplicar modelo de regresión')
             p El conjunto de datos creado, tiene la estructura a continuación. A estos datos se les aplicará un modelo de regresión, con el fin de predecir la variable resultante.
             .row.justify-content-center.mb-5
               .col-lg-6
@@ -160,7 +160,7 @@
                   br
                   span.fst-italic  Dataframe
                 img(src='@/assets/curso/temas/tema1/13.png', alt='')
-          div(titulo='Crear lista de tuplas')
+          div(titulo='Paso 4: Crear lista de tuplas')
             p Para crear <em>pipelines</em>, es indispensable conocer previamente los pasos que conforman el proceso; la notación es “(nombre_del_paso', Instancia() )”, donde el primer parámetro es el nombre del paso y el segundo, su respectiva instancia. 
               br
               br
@@ -170,13 +170,13 @@
               |pasos = [(#[span.r--r ‘Estandar’], StandardScaler()), 
               br
               | #[span.ms-5 (#[span.r--r ‘Regresion_Lineal’], LinearRegression()) ]]
-          div(titulo='Crear objeto')
+          div(titulo='Paso 5: Crear objeto')
             p Seguidamente, se crea el objeto para el <em>pipeline</em> o tubería.
               br
               br
               | #[em tuberia = Pipeline(pasos)]
 
-          div(titulo='Crear <em>dataframe</em> de entrenamiento')
+          div(titulo='Paso 6: Crear <em>dataframe</em> de entrenamiento')
             p La siguiente fase no hace parte de la creación del <em>pipeline</em>, pero será necesaria para la articulación e implantación del modelo.
             p.fst-italic #[span.r--v # Se crea un nuevo dataframe para el entrenamiento del modelo]
               br
@@ -230,9 +230,7 @@
                     span Enlace web
                     i.fas.fa-link
 
-    Separador
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.2  Optimización de la implementación de modelos
+    h3 Optimización de la implementación de modelos
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/15.svg', alt='')
       .col-lg-9(data-aos="fade-left")
@@ -473,9 +471,7 @@
                     i.fas.fa-file-download
 
 
-    Separador
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.3  Arquitectura del sistema de #[em Machine learning]   
+    h3  Arquitectura del sistema de #[em Machine learning]   
     .row.justify-content-center.mb-5
       .col-lg-2.col-5.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/21.svg', alt='')
       .col-lg-10(data-aos="fade-left")

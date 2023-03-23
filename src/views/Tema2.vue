@@ -7,7 +7,7 @@
         span 2
       h1 Implementar modelos a través de API REST
 
-    p.mb-5(data-aos='fade-right') En este tema, hablaremos sobre uno de los conceptos más mencionados en el mundo del desarrollo de #[em software], hablamos de API REST.
+    p.mb-5(data-aos='fade-right') En este tema, se hablará sobre uno de los conceptos más mencionados en el mundo del desarrollo de #[em software], hablamos de API REST.
     .row.justify-content-center.mb-5
       .col-lg-5.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/1.png', alt='')
       .col-lg-7(data-aos="fade-left")
@@ -337,41 +337,37 @@
         p.mb-0 Docker es una herramienta útil para empaquetar, enviar y ejecutar aplicaciones dentro de contenedores. Los contenedores y las máquinas virtuales, tienen un objetivo afín: separar las aplicaciones de sus dependencias en unidades aisladas que puedan ejecutarse en cualquier entorno. Además, los contenedores y las máquinas virtuales ponen fin al requisito del #[em hardware], lo que permite un uso más eficiente de recursos como memoria, CPU y disco. Así mismo, minimizan el consumo de energía y los costos de mantenimiento. 
     .tarjeta.p-5.mb-5(style="background-color:#f5fafe ")
       SlyderA(tipo='b')
-        .row
+        .row.mx-3
           .col-md-7.mb-4.mb-md-0
             p La principal diferencia entre Docker y máquinas virtuales está en su enfoque arquitectónico. Una máquina virtual es, básicamente, una emulación de un computador que ejecuta todo tipo de programas o aplicaciones. Las máquinas virtuales se ejecutan en la parte superior de una máquina física mediante un hipervisor. Por su parte, Docker no emula un sistema operativo, sino que está compuesto por el #[em kernel] y los componentes esenciales que soportan las aplicaciones para las que fue diseñado. 
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/24.png', alt='Texto que describa la imagen')
-        .row
+        .row.mx-3
           .col-md-7.mb-4.mb-md-0
             p Docker es una de las herramientas más utilizadas por los desarrolladores de #[em software] y analistas de datos, para enviar a producción las aplicaciones y modelos. Incluso gigantes tecnológicos como Amazon, Google, IBM, Microsoft y Vmware, desarrollan servicios para soportar Docker en sus plataformas.  
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/25.png', alt='Texto que describa la imagen')
-        .row
+        .row.mx-3
           .col-md-7.mb-4.mb-md-0
             p La tecnología Docker se basa, principalmente, en la arquitectura cliente-servidor. El cliente se comunica con Docker, que actúa como un servidor presente en la máquina anfitriona. El servicio de Docker funciona con tres procesos principales que ejecutan, construyen y distribuyen contenedores. Tanto el contenedor Docker como el servicio pueden estar ubicados en una sola máquina. (Potdar, #[em et al.], 2020)
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/26.png', alt='Texto que describa la imagen')
-        .row
+        .row.mx-3
           .col-md-7.mb-4.mb-md-0
             p Los contenedores Docker son creados de una imagen que contiene únicamente los requerimientos necesarios para ejecutar la aplicación deseada; por ejemplo, si se quiere desplegar un modelo de #[em Machine learning] en una aplicación web, la imagen del contenedor Docker deberá tener instalado, como mínimo, el lenguaje de programación del modelo, ya sea Python, R o Java, además, un servidor web como Apache o Nginx y las librerías requeridas para que la aplicación o modelo, funcione correctamente.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/27.png', alt='Texto que describa la imagen')
-        .row
-          .col-md-7.mb-4.mb-md-0
+        .row.mx-3
+          .col-md-5.mb-4.mb-md-0
             p La arquitectura de Docker es muy práctica para realizar pruebas, porque permite clonar las imágenes de una misma aplicación o modelo y ejecutarlas al tiempo, en el mismo servidor, como lo ilustra la figura.
               br
               br
               |Muestra que los contenedores empaquetan solo el espacio que el usuario requiere, para el despliegue de la aplicación o modelo, y no el #[em hardware], como lo haría una máquina virtual. Cada contenedor tiene su propio espacio aislado dentro del sistema, para permitir que varios de ellos se ejecuten en una sola máquina #[em host]. Podemos ver que toda la arquitectura del sistema operativo, se comparte entre contenedores que, junto a las bibliotecas, son las únicas partes que se crean desde cero, razón por la cual son tan livianos.
-          .col-md-5
-            //.titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 4
-              br
-              span.fst-italic Arquitectura Docker
+          .col-md-7
             figure
               img(src='@/assets/curso/temas/tema2/28.svg', alt='Texto que describa la imagen')
     p.mb-5(data-aos='fade-right') Docker es una de las tecnologías a tener en cuenta en el proceso de despliegue de cualquier aplicación o modelo de inteligencia artificial. Las siguientes son algunas de sus ventajas:
@@ -406,6 +402,7 @@
     //.titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 5
       span.fst-italic Funcionamiento Docker
+    h2.text-center Funcionamiento Docker
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
@@ -413,7 +410,7 @@
       .tarjeta.bg-white(x="7.5%" y="87%" numero="").overflow-hidden
         div(style="background-color: #feca2e").w-100.py-3
         .p-4
-          p.text-center Desde el repositorio de Docker Hub se descargan copias de imágenes o sistemas operativos
+          p.text-center Desde el repositorio de Docker Hub se descargan copias de imágenes o sistemas operativos.
       .tarjeta.bg-white(x="24.5%" y="87%" numero="").overflow-hidden
         div(style="background-color: #feca2e").w-100.py-3
         .p-4

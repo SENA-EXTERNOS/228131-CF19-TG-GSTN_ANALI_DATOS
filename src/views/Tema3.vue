@@ -133,7 +133,7 @@
               br
               br
               |La interfaz de línea de comandos (AWS CLI) es una herramienta #[em open source], que permite manipular los servicios de AWS mediante el uso de comandos en una aplicación que los interpreta y envía las órdenes a la plataforma. Todas las funciones de administración, gestión y acceso de IaaS (infraestructura como servicio) de la AWS Management Console, están disponibles en la AWS API y la AWS CLI.
-      .py-4.py-md-5(titulo="AWS SD")
+      .py-4.py-md-5(titulo="AWS SDK")
         .row
           .col-md-6: img(src='@/assets/curso/temas/tema3/13.png', alt='')
           .col-md-6.mb-4.mb-md-0
