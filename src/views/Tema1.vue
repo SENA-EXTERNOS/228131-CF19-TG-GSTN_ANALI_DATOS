@@ -438,7 +438,7 @@
     p.mb-4(data-aos='fade-right') Para una mejor comprensión del tema  #[em Machine learning], se le invita a ver el siguiente video: 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/tkeCwwPOVIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta.p-3.mb-5(style='background-color: #c4e4fe')
