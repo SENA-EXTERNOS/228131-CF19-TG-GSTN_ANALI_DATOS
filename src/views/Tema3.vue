@@ -96,7 +96,7 @@
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/temas/tema3/7.svg' alt='AvatarTop')
-            p.text-center AWS permite almacenar terabytes o #[em petabytes] de datos, sin generar un alto costo; sin embargo, cuando se hacen transferencias desde estos almacenamientos hacia otras instancias, el costo se eleva considerablemente, por lo es importante tener cuidado con las transferencias y descargas de los datos.  
+            p.text-center AWS permite almacenar terabytes o #[em petabytes] de datos, sin generar un alto costo; sin embargo, cuando se hacen transferencias desde estos almacenamientos hacia otras instancias, el costo se eleva considerablemente, por lo que es importante tener cuidado con las transferencias y descargas de los datos.  
           .tarjeta.bg-white.p-4(style="border: 2px solid #e8e8e8 ").h-100
             .row.justify-content-center.mb-3
               .col-8
