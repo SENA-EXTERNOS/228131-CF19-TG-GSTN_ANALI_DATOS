@@ -42,7 +42,7 @@
 
     Separador
     
-    h3 Implementación de <em>Pipelines</em>
+    #t_1_1.h3 1.1 Implementación de <em>Pipelines</em>
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right").mb-lg-0.mb-3
         p Un <em>pipeline</em> de datos es un conjunto de fases y herramientas tecnológicas que se integran para realizar los procesos de transformación de los datos, desde el inicio hasta su almacenamiento persistente. La creación de <em>pipelines</em>, es un componente central de la ciencia de datos que permite crear aplicaciones para recopilar datos de millones de usuarios y procesar los resultados casi en tiempo real. 
@@ -230,7 +230,7 @@
                     span Enlace web
                     i.fas.fa-link
 
-    h3 Optimización de la implementación de modelos
+    #t_1_2.h3 1.2 Optimización de la implementación de modelos
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/15.svg', alt='')
       .col-lg-9(data-aos="fade-left")
@@ -471,7 +471,7 @@
                     i.fas.fa-file-download
 
 
-    h3  Arquitectura del sistema de #[em Machine learning]   
+    #t_1_3.h3 1.3  Arquitectura del sistema de #[em Machine learning]   
     .row.justify-content-center.mb-5
       .col-lg-2.col-5.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/21.svg', alt='')
       .col-lg-10(data-aos="fade-left")
