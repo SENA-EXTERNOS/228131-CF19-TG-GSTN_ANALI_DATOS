@@ -119,14 +119,6 @@ export default {
   },
   complementario: [
     {
-      tema: 'Implementación de <em>Pipeline</em>',
-      referencia:
-        'Tuychiev, B. (2020). <em>How to Use Sklearn Pipelines For Ridiculously Neat Code.</em> Towards Data Science.',
-      tipo: 'Artículo',
-      link:
-        'https://towardsdatascience.com/how-to-use-sklearn-pipelines-for-ridiculously-neat-code-a61ab66ca90d ',
-    },
-    {
       tema: 'Optimización de la implementación de modelos',
       referencia:
         'Ortiz Loaiza, A. (2020). <em>Optimización del tiempo de inferencia de un modelo de machine learning usando OpenVINO y despliegue del modelo en un entorno cloud.</em>',
